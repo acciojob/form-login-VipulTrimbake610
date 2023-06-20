@@ -1,8 +1,8 @@
 function getFormvalue() {
     //Write your code here
-	const fname = document.getElementsByTagName("input")[0];
-	const lname = document.getElementsByTagName("input")[1];
-
-	alert(fname,lname);
+	const fname = document.getElementsByTagName("input")[0].value;
+	const lname = document.getElementsByTagName("input")[1].value;
+	// console.log(lname)
+	alert(fname+" "+lname);
 
 }
